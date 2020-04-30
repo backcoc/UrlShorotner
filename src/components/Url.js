@@ -54,7 +54,7 @@ class Url extends Component {
     render() {
         const urlState = this.state.data;
         const urlStatus = this.state.status;
-        let views = <div className="text-red">Processing</div>
+        let views = <div className="text-red">Processing....</div>
         if(urlStatus === false) {
             views = <div></div>
         }
