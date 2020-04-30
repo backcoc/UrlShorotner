@@ -1,0 +1,94 @@
+body,
+html {
+    font-family: Karla, 'Open Sans', sans-serif;
+    color: #fff !important;
+    height: 100%;
+    
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
+    }
+
+.text-red {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color: #800909 !important;
+}
+
+.navList a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #800909 !important;
+}
+
+.bg-dark {
+    background-color: #f39c12 !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.form-signin {
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.homesearch {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.urlLink {
+    color: green;
+    text-decoration: underline;
+}
